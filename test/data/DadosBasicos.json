@@ -1,0 +1,18 @@
+{
+  "dadosUsuario": {
+    "name": "Hadassa",
+    "lastName": "Vanessa Brito",
+    "adress": "Teste 123",
+    "email": "hadassa.vanessa@br.ibn.com",
+    "phone": "4899885566",
+    "genderMasculino": "Male",
+    "skill": "SQL",
+    "country": "Andorra",
+    "selectCountry": "Japan",
+    "year": "1986",
+    "month": "June",
+    "day": "25",
+    "password": "Dd12345",
+    "passwordConfirm": "Dd12345"
+  }
+}
