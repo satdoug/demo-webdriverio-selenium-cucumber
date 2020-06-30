@@ -1,9 +1,0 @@
-2020-04-17T13:23:43.041Z DEBUG @wdio/utils:initialiseServices: initialise custom service "TimelineService"
-2020-04-17T13:23:43.046Z DEBUG @wdio/utils:initialiseServices: initialise wdio service "selenium-standalone"
-2020-04-17T13:23:43.234Z INFO @wdio/cli:launcher: Run onPrepare hook
-2020-04-17T13:23:48.745Z INFO @wdio/local-runner: Start worker 0-0 with arg: wdio.conf.js
-2020-04-17T13:25:01.649Z DEBUG @wdio/local-runner: Runner 0-0 finished with exit code 0
-2020-04-17T13:25:01.659Z INFO @wdio/cli:launcher: Run onComplete hook
-2020-04-17T13:25:01.683Z INFO @wdio/selenium-standalone-service: shutting down all browsers
-2020-04-17T13:25:02.067Z INFO @wdio/local-runner: Shutting down spawned worker
-2020-04-17T13:25:02.321Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
