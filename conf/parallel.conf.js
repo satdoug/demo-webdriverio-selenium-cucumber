@@ -1,30 +1,32 @@
-const { TimelineService } = require('wdio-timeline-reporter/timeline-service');
-
 exports.config = {
-  runner: 'local',
-  hostname: 'localhost',
-  port: 4444,
-  path: '/wd/hub',
+  user: process.env.BROWSERSTACK_USERNAME || 'BROWSERSTACK_USERNAME',
+  key: process.env.BROWSERSTACK_ACCESS_KEY || 'BROWSERSTACK_ACC_KEY',
+  updateJob: false,
   specs: ['./test/e2e/features/*.feature'],
-  // execArgv: ['--inspect-brk=127.0.0.1:5859'],
-  debug: false,
-  maxInstances: 1,
-  capabilities: [
-    {
-      maxInstances: 1,
-      browserName: 'chrome',
-      'zal:recordVideo': true,
-      'zal:name': 'MP Promotoria Digital',
-      'zal:build': 'WebdriverIO',
-    },
-  ],
+
+  maxInstances: 10,
+  commonCapabilities: {
+    name: 'parallel test',
+    build: 'webdriver-browserstack'
+  },
+
+ capabilities: [{
+    browser: 'chrome'
+  },{
+    browser: 'firefox'
+  },{
+    browser: 'internet explorer'
+  }],
+
   logLevel: 'trace',
-  outputDir: './test-report/output',
+  coloredLogs: true,
   bail: 0,
   baseUrl: 'http://demo.automationtesting.in',
   waitforTimeout: 10000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
+  host: 'hub.browserstack.com',
+ 
   framework: 'cucumber',
   reporters: [
     'dot',
@@ -55,11 +57,6 @@ exports.config = {
     timeout: 60000,
     ignoreUndefinedDefinitions: false,
   },
-  services: [
-    [TimelineService],
-    // Uncomment to run tests with Selenium Standalone, if you have JDK installed.
-    ['selenium-standalone'],
-  ],
   before() {
     browser.maximizeWindow();
   },
