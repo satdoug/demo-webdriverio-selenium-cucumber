@@ -1,7 +1,13 @@
-Para rodar o teste:
+# webdriverio-browserstack
+[WebdriverIO](http://webdriver.io/) + [Selenium](https://www.selenium.dev/) +[Cucumber](https://cucumber.io/) + [Page Object](https://webdriver.io/docs/pageobjects.html)
 
-1º Abra o terminal e digite:
+![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
+
+<img src = "https://webdriver.io/img/webdriverio.png" height = "100">
+
+
+## Setup
   - yarn
 
-2º Após a instalações dos pacotes digite no terminal:
-  - yarn run tests:e2e
+## Running your tests
+  - yarn run local
