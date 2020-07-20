@@ -12,8 +12,8 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 ## Executado o teste localmente
   - yarn run local
 
-
-
+</br>
+</br>
 
 <p float="left">
   <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
