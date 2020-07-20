@@ -17,5 +17,6 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 
 <p float="left">
   <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
+  <img src="https://static.javatpoint.com/tutorial/cucumber/images/cucumber-testing-tutorial.png" height = "100" width = "100"/>
   <img src="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780" height = "100"/>
 </p>
