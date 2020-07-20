@@ -5,10 +5,6 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 
 [WebdriverIO](http://webdriver.io/) + [Selenium](https://www.selenium.dev/) +[Cucumber](https://cucumber.io/) + [Page Object](https://webdriver.io/docs/pageobjects.html)
 
-![BrowserStack Logo]()
-
-
-
 
 #### Pré-requisitos
   - yarn
@@ -18,6 +14,6 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 
 
 <p float="left">
-  <img src = "https://webdriver.io/img/webdriverio.png" width="100" height = "100">
-  <img src="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780" width="100" height = "100"/>
+  <img src = "https://webdriver.io/img/webdriverio.png">
+  <img src="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780" height = "100"/>
 </p>
