@@ -13,6 +13,8 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
   - yarn run local
 
 
+
+
 <p float="left">
   <img src = "https://webdriver.io/img/webdriverio.png" height = "100">
   <img src="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780" height = "100"/>
