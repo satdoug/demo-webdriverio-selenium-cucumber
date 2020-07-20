@@ -5,9 +5,9 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 
 [WebdriverIO](http://webdriver.io/) + [Selenium](https://www.selenium.dev/) +[Cucumber](https://cucumber.io/) + [Page Object](https://webdriver.io/docs/pageobjects.html)
 
-![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
+![BrowserStack Logo]()
 
-<img src = "https://webdriver.io/img/webdriverio.png" height = "100">
+
 
 
 #### Pré-requisitos
@@ -15,3 +15,9 @@ Este projeto trata-se de uma demonstração do uso do WebDriverIO para realizar 
 
 ## Executado o teste localmente
   - yarn run local
+
+
+<p float="left">
+  <img src = "https://webdriver.io/img/webdriverio.png" width="100" height = "100">
+  <img src="https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780" width="100" height = "100"/>
+</p>
